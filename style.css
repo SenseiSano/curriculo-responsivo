@@ -1,0 +1,48 @@
+
+body{
+	background-image: url("b.jpg");
+	display: flex;
+	justify-content: center;	
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.3);
+	width: calc(100% - 50px);
+}
+#curriculum{
+	color: black;
+}
+
+h3{color:black;
+ font-size:24px; 
+ font-family:tahoma;
+ }
+
+h1{
+	color:white;
+ font-size:50px; 
+ font-family:timesnewroman;
+ }
+
+ h2{color:black ;
+ font-size:35px; 
+ font-family:arial;
+ }
+ hr{
+	 height:2px;
+	 background-color:black;
+	 border-style:none;
+ }
+ @media only screen and (max-width: 600px) {
+	 .video{
+		 width: 100%;
+		 height: 100%;
+	 }
+	 #curriculum{
+		font-size: 22pt;
+	 }
+ }
